@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup java -Xmx1024m -jar $(ls | grep .jar | grep -v original) > /dev/null &
+nohup java -Xmx3072m -jar $(ls | grep .jar | grep -v original) > /dev/null &

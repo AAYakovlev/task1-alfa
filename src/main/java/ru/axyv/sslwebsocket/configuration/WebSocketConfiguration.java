@@ -13,7 +13,7 @@ import org.springframework.web.socket.messaging.WebSocketStompClient;
 @Slf4j
 @Configuration
 public class WebSocketConfiguration {
-    private static String URL = "ws://localhost:8080/gs-guide-websocket";
+    private static String URL = "ws://130.193.51.107:8100/";
 
     @Bean
     public WebSocketStompClient webSocket(StompHandler sessionHandler) {
